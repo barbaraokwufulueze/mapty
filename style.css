@@ -172,7 +172,7 @@ a:visited {
 }
 
 .copyright {
-  margin-top: auto;
+  margin-top: 2rem;
   font-size: 1.3rem;
   text-align: center;
   color: var(--color-light--1);
@@ -217,4 +217,27 @@ a:visited {
 }
 .cycling-popup .leaflet-popup-content-wrapper {
   border-left: 5px solid var(--color-brand--1);
+}
+
+/**************************/
+/* BELOW 1000px (Tablets) */
+/**************************/
+
+@media (max-width: 63em) {
+  body {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 4rem;
+    /* overscroll-behavior-y: unset; */
+  }
+
+  #map {
+    height: 80vh;
+    grid-row: 1;
+  }
+
+  .sidebar {
+    justify-content: center;
+    justify-self: center;
+  }
 }
