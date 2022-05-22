@@ -2,11 +2,17 @@
 
 # mapty
 
-Mapty is a vanilla JavaScript application for tracking workouts. This app was built as a practice project for a JavaScript course taught by Jonas Schmedtmann.
+Mapty is a vanilla JavaScript application for tracking running and cycling exercises. 
 
 ## Usage
-As a user, you can log your running and cycling exercises and your workouts are stored in your local storage. The application interacts with the Leaflet library and displays a map.
-To add workouts, click on the location of your exercise on the map and record your workout using the form that pops up. Your workout shows on the map along with the workout details. Click on workouts to see the workout details on the map.
+As a user, you can log your running and cycling exercises, and the app immediately stores your workouts in the local storage on your device. The application interacts with the Leaflet library and displays a map showing the location of your workouts along with some workout details.
+To add workouts, click on the location of your exercise on the map and record your workout using the form that pops up. Your workout shows on the map along with the workout details. Click on workouts to see the workout details on the map. This app was built as a practice project for a JavaScript course taught by Jonas Schmedtmann.
+
+## Tech
+- HTML
+- CSS
+- JavaScript
+- Leaflet JavaScript library
 
 ## Demo 
 https://barbaraokwufulueze.github.io/mapty/
